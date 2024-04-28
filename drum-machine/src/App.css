@@ -1,0 +1,34 @@
+.container {
+    text-align: center;
+    margin: 50px;
+
+}
+
+.whole-drum {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin: 50px auto;
+    width: min-content;
+}
+
+.drum-pad {
+    text-shadow: black;
+    width: 100px;
+    height: 100px;
+    border: 5px solid black;
+    background-color: #8919ae;
+    color: #f2f2f2ba;
+    font-size: 20px;
+    border-radius: 10px 10px 15px 25px;
+    box-shadow: 4px 4px 10px;
+    transition: all 1ms ease-in-out;
+
+}
+.drum-pad:active{
+    transform: translate(2px,2px);
+    background-color: #da1515;
+    color: #000000ba;
+    text-shadow: 2px 2px 8px  rgba(243, 242, 203, 0.886);
+}
